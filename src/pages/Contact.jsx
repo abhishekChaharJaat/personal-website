@@ -31,10 +31,12 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-gradient-to-br from-[#FAFEFD] via-[#F2FBF9] to-[#E9F7F4] text-[#2A3B4F] px-6 py-16 scroll-mt-20"
+      className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#F8FFFC] to-[#F0FFF8] text-[#2A3B4F] px-6 py-16 scroll-mt-20"
     >
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold mb-8 text-center">Get in Touch</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center text-[#394045]">
+          Get in Touch
+        </h2>
         <p className="text-center mb-12 text-lg text-[#496D75]">
           I’d love to hear from you! Whether you have a project, a question, or
           just want to say hi, feel free to reach out using the form below or
@@ -95,7 +97,7 @@ const Contact = () => {
           {/* Contact Form */}
           <form
             onSubmit={handleSubmit}
-            className="md:w-1/2 bg-white rounded-lg p-8 shadow-lg"
+            className="md:w-1/2 bg-[#FAFEFD] rounded-lg p-8 shadow-lg"
             noValidate
           >
             {submitted && (
@@ -105,7 +107,9 @@ const Contact = () => {
             )}
 
             <label className="block mb-4">
-              <span className="text-gray-700 font-medium mb-1 block">Name</span>
+              <span className="text-[#394045] font-medium mb-1 block">
+                Name
+              </span>
               <input
                 type="text"
                 name="name"
@@ -118,7 +122,7 @@ const Contact = () => {
             </label>
 
             <label className="block mb-4">
-              <span className="text-gray-700 font-medium mb-1 block">
+              <span className="text-[#394045] font-medium mb-1 block">
                 Email
               </span>
               <input
@@ -133,7 +137,7 @@ const Contact = () => {
             </label>
 
             <label className="block mb-6">
-              <span className="text-gray-700 font-medium mb-1 block">
+              <span className="text-[#394045] font-medium mb-1 block">
                 Message
               </span>
               <textarea

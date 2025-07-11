@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <section
         id="home"
-        className="flex items-center justify-center min-h-screen bg-gradient-to-br from-[#E6F4F1] via-[#D7ECE9] to-[#B9DED9] text-[#1B2B48] px-6 scroll-mt-20"
+        className="flex items-center justify-center min-h-screen bg-gradient-to-br from-[#F9FBFA] via-[#F0F4F3] to-[#E6ECEA] text-[#394045] px-6 scroll-mt-20"
       >
         <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
           {/* Text Content */}
@@ -16,9 +16,9 @@ const Home = () => {
               Hi, I'm Abhishek Chahar
             </h1>
             <p className="text-lg sm:text-xl mb-6 text-[#18475A]">
-              I'm a passionate Front-End Engineer who loves crafting clean,
-              modern, and responsive web interfaces. I enjoy turning complex
-              problems into elegant digital experiences.
+              I'm a passionate Software Engineer specialized in Front-End who
+              loves crafting clean, modern, and responsive web interfaces. I
+              enjoy turning complex problems into elegant digital experiences.
             </p>
 
             <div className="flex justify-center md:justify-start gap-6 mb-6 text-2xl text-[#13866F]">

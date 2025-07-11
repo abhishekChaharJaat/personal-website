@@ -7,16 +7,18 @@ const About = () => {
       className="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-12"
     >
       <div className="w-full sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 border-b-2 border-[#13866F] inline-block">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 border-b-2 border-[#13866F] inline-block text-[#394045]">
           About Me
         </h2>
-        <p className="text-left text-[14px] md:text-[16px] leading-relaxed font-sans">
+        <p className="text-left text-[14px] md:text-[16px] leading-relaxed font-sans text-[#394045]">
           I am a{" "}
           <span className="font-semibold text-[#13866F]">
-            Frontend Engineer
+            Software Engineer
           </span>{" "}
-          specializing in building scalable, high-performance web interfaces
-          using <span className="font-semibold text-[#13866F]">React.js</span>,{" "}
+          specializing in{" "}
+          <span className="font-semibold text-[#13866F]">Frontend</span> who
+          builds scalable, high-performance web interfaces using{" "}
+          <span className="font-semibold text-[#13866F]">React.js</span>,{" "}
           <span className="font-semibold text-[#13866F]">Redux</span>, and{" "}
           <span className="font-semibold text-[#13866F]">Tailwind CSS</span>. I
           focus on writing clean, reusable code with strong attention to
@@ -32,9 +34,10 @@ const About = () => {
           discussions and implement frontend best practices to ship
           production-level features seamlessly.
         </p>
-        <p className="text-left text-sm sm:text-base leading-relaxed font-sans">
-          Additionally, I have backend experience working with{" "}
-          <span className="font-semibold text-[#13866F]">Node.js</span> and{" "}
+        <p className="text-left text-sm sm:text-base leading-relaxed font-sans text-[#394045] mt-4">
+          I have backend experience working with{" "}
+          <span className="font-semibold text-[#13866F]">Node.js</span>,{" "}
+          <span className="font-semibold text-[#13866F]">Express.js</span>, and{" "}
           <span className="font-semibold text-[#13866F]">MongoDB</span>, having
           built several projects that demonstrate full-stack capabilities and
           efficient API development.

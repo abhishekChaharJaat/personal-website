@@ -5,7 +5,7 @@ import InhouseLogo from "../images/inhouse-logo.png";
 const experiences = [
   {
     company: "Inhouse AI Inc.",
-    title: "Frontend Developer",
+    title: "Frontend Engineer",
     startDate: "2024-12-01",
     endDate: null,
     logo: InhouseLogo,
@@ -13,7 +13,7 @@ const experiences = [
     label: "Full-time",
     workLink: "https://platform.inhouse.app/",
     description:
-      "Working as a frontend developer where I focus on building and maintaining scalable, high-performance web interfaces using React.js, Redux, and Tailwind CSS. I collaborate with cross-functional teams across different time zones to deliver new features and enhance existing UI components. My responsibilities include integrating RESTful APIs to create interactive, data-driven user experiences while managing complex state efficiently. I consistently write clean, reusable code with a strong emphasis on responsiveness, accessibility, and performance. I also take an active role in UI/UX discussions, ensuring frontend best practices are followed throughout the development process. Additionally, I work closely with the lead frontend engineer to ship production-ready features in a fast-paced, product-driven environment.",
+      "Working as a frontend engineer where I focus on building and maintaining scalable, high-performance web interfaces using React.js, Redux, and Tailwind CSS. I collaborate with cross-functional teams across different time zones to deliver new features and enhance existing UI components. My responsibilities include integrating RESTful APIs to create interactive, data-driven user experiences while managing complex state efficiently. I consistently write clean, reusable code with a strong emphasis on responsiveness, accessibility, and performance. I also take an active role in UI/UX discussions, ensuring frontend best practices are followed throughout the development process. Additionally, I work closely with the lead frontend engineer to ship production-ready features in a fast-paced, product-driven environment.",
   },
 ];
 
