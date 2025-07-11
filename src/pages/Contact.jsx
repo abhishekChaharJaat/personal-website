@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#F8FFFC] to-[#F0FFF8] text-[#2A3B4F] px-6 py-16 scroll-mt-20"
+      className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#FBFFFE] to-[#F4FFFC] text-[#2A3B4F] px-6 py-16 scroll-mt-20"
     >
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-center text-[#394045]">

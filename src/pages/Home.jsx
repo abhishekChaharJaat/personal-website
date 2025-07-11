@@ -15,7 +15,7 @@ const Home = () => {
             <h1 className="text-2xl sm:text-5xl font-bold mb-4 font-sans text-[#1B2B48]">
               Hi, I'm Abhishek Chahar
             </h1>
-            <p className="text-lg sm:text-xl mb-6 text-[#18475A]">
+            <p className="text-[16px] md:text-[18px] mb-6 text-[#18475A]">
               I'm a passionate Software Engineer specialized in Front-End who
               loves crafting clean, modern, and responsive web interfaces. I
               enjoy turning complex problems into elegant digital experiences.
