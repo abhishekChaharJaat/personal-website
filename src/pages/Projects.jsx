@@ -62,6 +62,8 @@ const Projects = () => {
           <div
             key={index}
             className="bg-white rounded-lg shadow hover:shadow-md transition duration-300 p-4"
+            data-aos="fade-up"
+            data-aos-delay={index * 150} // stagger animation by 150ms
           >
             <h4 className="text-[#18475A] font-medium text-[17px] md:text-[20px] mb-1 flex items-center justify-between">
               {project.name}

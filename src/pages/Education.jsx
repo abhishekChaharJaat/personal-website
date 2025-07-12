@@ -78,6 +78,8 @@ const Education = () => {
                 className={`relative flex flex-col md:flex-row md:items-center cursor-pointer ${
                   idx % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
                 }`}
+                data-aos="fade-up" // Add AOS here for fade-up effect
+                data-aos-delay={`${idx * 100}`} // Optional: stagger animation delay
               >
                 {/* Timeline Dot */}
                 <div className="absolute left-1/2 transform -translate-x-1/2 bg-[#13866F] w-3 h-3 rounded-full z-10"></div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   FaPhoneAlt,
   FaEnvelope,
@@ -7,6 +7,8 @@ import {
   FaGithub,
   FaTwitter,
 } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -17,13 +19,17 @@ const Contact = () => {
 
   const [submitted, setSubmitted] = useState(false);
 
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
   const handleChange = (e) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can add your form submit logic, e.g., API call or email sending
+    // Add your form submission logic here (e.g., API call)
     setSubmitted(true);
     setFormData({ name: "", email: "", message: "" });
   };
@@ -32,6 +38,7 @@ const Contact = () => {
     <section
       id="contact"
       className="min-h-screen bg-gradient-to-br from-[#FFFFFF] via-[#FBFFFE] to-[#F4FFFC] text-[#2A3B4F] px-6 py-16 scroll-mt-20"
+      data-aos="fade-up"
     >
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-center text-[#394045]">
@@ -48,14 +55,24 @@ const Contact = () => {
           <div className="md:w-1/2 space-y-8">
             <div className="flex items-center gap-4">
               <FaPhoneAlt className="text-[#3CA68D] text-xl" />
-              <span className="text-lg font-medium">+1 (123) 456-7890</span>
+              <a
+                href="tel:+917895048246"
+                className="text-lg font-medium hover:underline"
+                aria-label="Call phone number"
+              >
+                +91 78950 48246
+              </a>
             </div>
 
             <div className="flex items-center gap-4">
               <FaEnvelope className="text-[#3CA68D] text-xl" />
-              <span className="text-lg font-medium">
+              <a
+                href="mailto:abhishekchahar200@gmail.com"
+                className="text-lg font-medium hover:underline"
+                aria-label="Send email"
+              >
                 abhishekchahar200@gmail.com
-              </span>
+              </a>
             </div>
 
             <div className="flex items-center gap-4">

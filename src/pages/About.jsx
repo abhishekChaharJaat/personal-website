@@ -7,10 +7,16 @@ const About = () => {
       className="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-12"
     >
       <div className="w-full sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 border-b-2 border-[#13866F] inline-block text-[#394045]">
+        <h2
+          data-aos="fade-up"
+          className="text-3xl sm:text-4xl font-bold text-center mb-10 border-b-2 border-[#13866F] inline-block text-[#394045]"
+        >
           About Me
         </h2>
-        <p className="text-left text-lg leading-relaxed font-sans text-[#394045]">
+        <p
+          data-aos="fade-up"
+          className="text-left text-lg leading-relaxed font-sans text-[#394045]"
+        >
           I am a{" "}
           <span className="font-semibold text-[#13866F]">
             Software Engineer
@@ -34,7 +40,10 @@ const About = () => {
           discussions and implement frontend best practices to ship
           production-level features seamlessly.
         </p>
-        <p className="text-left text-[16px] md:text-[18px] leading-relaxed font-sans text-[#394045] mt-4">
+        <p
+          data-aos="fade-up"
+          className="text-left text-lg md:text-[18px] leading-relaxed font-sans text-[#394045] mt-4"
+        >
           I have backend experience working with{" "}
           <span className="font-semibold text-[#13866F]">Node.js</span>,{" "}
           <span className="font-semibold text-[#13866F]">Express.js</span>, and{" "}

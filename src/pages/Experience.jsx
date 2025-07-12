@@ -51,7 +51,12 @@ const Experience = () => {
 
       <div className="relative pl-6 sm:pl-10 space-y-8 border-l-4 border-[#13866F]">
         {experiences.map((exp, index) => (
-          <div key={index} className="relative cursor-pointer">
+          <div
+            key={index}
+            className="relative cursor-pointer"
+            data-aos="fade-up"
+            data-aos-delay={index * 150} // stagger by 150ms
+          >
             <div className="absolute -left-[1.3rem] sm:-left-[1.7rem] top-3 bg-[#13866F] text-white p-1.5 rounded-full shadow-md">
               <HiOutlineBriefcase size={20} />
             </div>

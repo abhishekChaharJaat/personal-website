@@ -20,7 +20,7 @@ const Skills = () => {
 
   return (
     <div
-      id="slills"
+      id="skills"
       className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 shadow-sm scroll-mt-12"
     >
       <h3 className="text-2xl font-bold text-center mb-10 border-b border-[#13866F] inline-block">
@@ -32,6 +32,8 @@ const Skills = () => {
           <div
             key={index}
             className="group transition-transform duration-300 hover:scale-[1.02]"
+            data-aos="fade-up"
+            data-aos-delay={index * 100} // stagger delay
           >
             <div className="flex justify-between mb-1">
               <span className="text-[14px] md:text-[16px] font-semibold text-[#1B2B48]">
