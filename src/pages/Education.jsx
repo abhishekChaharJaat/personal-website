@@ -29,8 +29,8 @@ const education = [
   {
     icon: FaUniversity,
     degree: "Bachelor of Arts (B.A)",
-    institution: "GLA University",
-    location: "Chaumuhan, Mathura, U.P.",
+    institution: "Dr. Bhimrao Ambedkar University",
+    location: "Agra, U.P.",
     startDate: "2019",
     endDate: "2022",
     status: "Completed",
@@ -87,20 +87,20 @@ const Education = () => {
                   <div className="flex items-center gap-4 mb-2">
                     <Icon className="w-8 h-8 md:w-10 md:h-10 text-[#13866F]" />
                     <div>
-                      <h4 className="text-[14px] md:text-[16px] font-semibold text-[#18475A]">
+                      <h4 className="text-base md:text-lg font-semibold text-[#18475A]">
                         {edu.degree}
                       </h4>
-                      <p className="text-[14px] md:text-[16px] text-[#13866F] font-medium">
+                      <p className="text-sm md:text-md text-[#13866F] font-medium">
                         {edu.institution}
                       </p>
                     </div>
                   </div>
                   {/* Location with icon */}
-                  <p className="text-[14px] md:text-[16px] text-gray-600 flex items-center gap-1">
+                  <p className="text-base md:text-lg text-gray-600 flex items-center gap-1">
                     <FaMapMarkerAlt className="text-gray-500" /> {edu.location}
                   </p>
                   {/* Status with check mark if completed */}
-                  <p className="text-[14px] md:text-[16px] text-gray-500 mt-1 flex items-center gap-2">
+                  <p className="text-base md:text-lg text-gray-500 mt-1 flex items-center gap-2">
                     {edu.startDate} - {edu.endDate} |
                     <span
                       className={`font-semibold flex items-center gap-1 ${

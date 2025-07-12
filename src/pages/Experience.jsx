@@ -93,7 +93,7 @@ const Experience = () => {
                   {formatExperiencePeriod(exp.startDate, exp.endDate)}
                 </p>
 
-                <p className="text-[15px] md:text-[17px] font-sans text-[#1B2B48] leading-relaxed whitespace-pre-line">
+                <p className="text-lg font-sans text-[#1B2B48] leading-relaxed whitespace-pre-line">
                   {exp.description}
                 </p>
 

@@ -74,7 +74,7 @@ const Projects = () => {
                 View Work <FaExternalLinkAlt size={11} />
               </a>
             </h4>
-            <p className="text-[#1B2B48] text-[15px] md:text-[17px] font-sans mb-3">
+            <p className="text-[#1B2B48] text-lg font-sans mb-3">
               {project.description}
             </p>
 

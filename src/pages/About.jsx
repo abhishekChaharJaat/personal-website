@@ -10,7 +10,7 @@ const About = () => {
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 border-b-2 border-[#13866F] inline-block text-[#394045]">
           About Me
         </h2>
-        <p className="text-left text-[16px] md:text-[18px] leading-relaxed font-sans text-[#394045]">
+        <p className="text-left text-lg leading-relaxed font-sans text-[#394045]">
           I am a{" "}
           <span className="font-semibold text-[#13866F]">
             Software Engineer
